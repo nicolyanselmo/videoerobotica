@@ -1,1 +1,7 @@
-
+body { 
+  color: white; /*define cor da fonte*/
+  background-color: black; /*define a cor do fundo*/
+  margin: 0px; /*define a margem dos itens para todos os lados*/
+  font-family: "Chakra Petch", sans-serif; /*define a fonte dos itens de texto*/
+  margin-bottom: 1000px; /*define a margem dos itens para BAIXO*/
+}
