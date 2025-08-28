@@ -8,10 +8,10 @@ body {
 }
 
 header {
-  border-bottom: solid 2px rgb(42, 122, 228); /cria uma linha azul abaixo do cabeçalho/
-  padding: 20px; /espaçamento interno/
-  font-size: 32px; /tamanho do texto do cabeçalho/
-  color: rgb(42,122, 228); /cor azul para o texto do cabeçalho/
+  border-bottom: solid 2px rgb(42, 122, 228); /*cria uma linha azul abaixo do cabeçalho*/
+  padding: 20px; /*espaçamento interno*/
+  font-size: 32px; /*tamanho do texto do cabeçalho*/
+  color: rgb(42,122, 228); /*cor azul para o texto do cabeçalho*/
 }
 .chamada{
   background: rgb(184, 156, 213)   /* Define a cor de fundo usando valores RGB */
