@@ -21,3 +21,25 @@ h1{
 p{
   font-size: 20px;   /* Define o tamanho da fonte*/
 }
+.categoria-videos{
+  display: flex;          /* Coloca os vídeos lado a lado */
+  overflow: auto;         /* Adiciona scroll se precisar */
+  gap: 10px;              /* Espaço entre os vídeos */
+}
+
+.categoria{
+  padding-left: 20px;     /* Espaço na esquerda */
+  padding-right: 20px;    /* Espaço na direita */
+  margin-top: 50px;       /* Espaço em cima */
+}
+.categoria-videos img{
+  opacity: 0.5;           /* Deixa imagem meio transparente */
+  height: 200px;          /* Altura fixa das imagens */
+}
+.categorias-videos img:houver{
+  opacity: 1.0;           /* Imagem fica totalmente visível */
+  border: 3px solid green; /* Borda verde aparece */
+}
+.categoria h2{
+  color:  rgb(42, 122, 228); /* Cor azul para o título */
+}
