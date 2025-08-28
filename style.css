@@ -5,7 +5,7 @@ body {
   font-family: "Chakra Petch", sans-serif;       /*define ou  altera a fonte do texto*/
   margin-bottom: 10px;                         /*ajustar a margem inferior da página, deslocando para baixo*/
 }
-chamada{
+.chamada{
   background rgb(184, 156, 213)   /* Define a cor de fundo usando valores RGB */
   padding-bottom: 80px;           /* Adiciona espaçamento interno na parte inferior */
   padding-top: 80px;              /* Adiciona espaçamento interno na parte superior */
