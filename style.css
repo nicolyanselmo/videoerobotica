@@ -1,53 +1,60 @@
-body { 
-  color: white;                                /*define cor da fonte*/
-  background-color: black;                     /*define a cor do fundo*/
-  margin: 10px;                                   /*define a margem dos itens para todos os lados*/ /*zera o espaço proxímo a margem da página*/
-  font-family: "Chakra Petch", sans-serif;       /*define ou  altera a fonte do texto*/
-  margin-bottom: 10px;                         /*ajustar a margem inferior da página, deslocando para baixo*/
-  
+body {
+  color: white; /cor do texto/
+  background: black; /cor do fundo da página/
+  margin: 0px; /zera o espaço próximo a margem da página/
+  font-family: "Chakra Petch", sans-serif; /altera a fonte do texto/
+  margin-bottom: 100px; /define a margem dos itens para baixo/
 }
 
 header {
-  border-bottom: solid 2px rgb(42, 122, 228); /*cria uma linha azul abaixo do cabeçalho*/
-  padding: 20px; /*espaçamento interno*/
-  font-size: 32px; /*tamanho do texto do cabeçalho*/
-  color: rgb(42,122, 228); /*cor azul para o texto do cabeçalho*/
+  border-bottom: solid 2px rgb(42, 122, 228); /cria uma linha azul abaixo do cabeçalho/
+  padding: 20px; /espaçamento interno/
+  font-size: 32px; /tamanho do texto do cabeçalho/
+  color: rgb(42,122, 228); /cor azul para o texto do cabeçalho/
 }
-.chamada{
-  background: rgb(184, 156, 213)   /* Define a cor de fundo usando valores RGB */
-  padding-bottom: 80px;           /* Adiciona espaçamento interno na parte inferior */
-  padding-top: 80px;              /* Adiciona espaçamento interno na parte superior */
-  display: flex;                  /* Transforma o elemento em um container flexível */
-  justify-content: center;        /* Centraliza os itens horizontalmente */
+
+.chamada {
+  background: rgb(184, 156, 213); /cor de fundo lilás da seção de chamada/
+  padding-bottom: 80px; /espaço inferior interno/
+  padding-top: 80px; /espaço superior interno/
+  display: flex; /usa layout flexível para os filhos/
+  justify-content: center; /centraliza horizontalmente os elementos filhos/
 }
-.chamada-texto{
-  margin-right: 5%;  /* Adiciona uma margem à direita de 5% do tamanho do elemento*/
+
+.chamada-texto {
+  margin-right: 5%; /espaço à direita para separar do vídeo/
 }
-h1{
-  font-size: 40px;  /*Define o tamanho da fonte*/
+
+h1 {
+  font-size: 40px; /tamanho da fonte do título principal/
 }
-p{
-  font-size: 20px;   /* Define o tamanho da fonte*/
+
+p {
+  font-size: 20px; /tamanho da fonte dos parágrafos/
 }
+
 .categoria-videos {
-  display: flex;          /* Coloca os vídeos lado a lado */
-  overflow: auto;         /* Adiciona scroll se precisar */
-  gap: 10px;              /* Espaço entre os vídeos */
+  display: flex; /layout flexível em linha/
+  overflow-x: auto; /permite rolagem horizontal se necessário/
+  gap: 10px; /espaço entre os vídeos/
 }
 
 .categoria {
-  padding-left: 20px;     /* Espaço na esquerda */
-  padding-right: 20px;    /* Espaço na direita */
-  margin-top: 50px;       /* Espaço em cima */
+  padding-left: 20px; /espaço interno à esquerda/
+  padding-right: 20px; /espaço interno à direita/
+  margin-top: 50px; /espaço superior da seção/
 }
+
 .categoria-videos img {
-  opacity: 0.5;           /* Deixa imagem meio transparente */
-  height: 200px;          /* Altura fixa das imagens */
+  opacity: 0.5; /imagens levemente transparentes/
+  height: 200px; /altura fixa das miniaturas/
 }
-.categorias-videos img:houver {
-  opacity: 1.0;           /* Imagem fica totalmente visível */
-  border: 3px solid green; /* Borda verde aparece */
+
+.categoria-videos img:hover {
+  opacity: 1.0; /ao passar o mouse, imagem fica visível totalmente/
+  border: 3px solid green; /adiciona borda verde ao passar o mouse/
 }
+
 .categoria h2 {
-  color:  rgb(42, 122, 228); /* Cor azul para o título */
+  color: rgb(42,122,228); /cor azul para o título da seção/
 }
