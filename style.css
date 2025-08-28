@@ -4,9 +4,17 @@ body {
   margin: 10px;                                   /*define a margem dos itens para todos os lados*/ /*zera o espaço proxímo a margem da página*/
   font-family: "Chakra Petch", sans-serif;       /*define ou  altera a fonte do texto*/
   margin-bottom: 10px;                         /*ajustar a margem inferior da página, deslocando para baixo*/
+  
+}
+
+header {
+  border-bottom: solid 2px rgb(42, 122, 228); /cria uma linha azul abaixo do cabeçalho/
+  padding: 20px; /espaçamento interno/
+  font-size: 32px; /tamanho do texto do cabeçalho/
+  color: rgb(42,122, 228); /cor azul para o texto do cabeçalho/
 }
 .chamada{
-  background rgb(184, 156, 213)   /* Define a cor de fundo usando valores RGB */
+  background: rgb(184, 156, 213)   /* Define a cor de fundo usando valores RGB */
   padding-bottom: 80px;           /* Adiciona espaçamento interno na parte inferior */
   padding-top: 80px;              /* Adiciona espaçamento interno na parte superior */
   display: flex;                  /* Transforma o elemento em um container flexível */
