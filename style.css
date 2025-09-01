@@ -1,36 +1,36 @@
 body {
-  color: white; /cor do texto/
-  background: black; /cor do fundo da página/
-  margin: 0px; /zera o espaço próximo a margem da página/
-  font-family: "Chakra Petch", sans-serif; /altera a fonte do texto/
-  margin-bottom: 100px; /define a margem dos itens para baixo/
+  color: white;            /*cor do texto*/
+  background: black;      /*cor do fundo da página*/
+  margin: 0px;             /*zera o espaço próximo a margem da página*/
+  font-family: "Chakra Petch", sans-serif;       /*altera a fonte do texto*/
+  margin-bottom: 100px;               /*define a margem dos itens para baixo*/
 }
 
 header {
-  border-bottom: solid 2px rgb(42, 122, 228); /cria uma linha azul abaixo do cabeçalho/
-  padding: 20px; /espaçamento interno/
-  font-size: 32px; /tamanho do texto do cabeçalho/
-  color: rgb(42,122, 228); /cor azul para o texto do cabeçalho/
+  border-bottom: solid 2px rgb(42, 122, 228);      /*cria uma linha azul abaixo do cabeçalho*/
+  padding: 20px;         /*espaçamento interno*/
+  font-size: 32px;       /*tamanho do texto do cabeçalho*/
+  color: rgb(42,122, 228);                /*cor azul para o texto do cabeçalho*/
 }
 
 .chamada {
-  background: rgb(184, 156, 213); /cor de fundo lilás da seção de chamada/
-  padding-bottom: 80px; /espaço inferior interno/
-  padding-top: 80px; /espaço superior interno/
-  display: flex; /usa layout flexível para os filhos/
-  justify-content: center; /centraliza horizontalmente os elementos filhos/
+  background: rgb(184, 156, 213);            /*cor de fundo lilás da seção de chamada*/
+  padding-bottom: 80px;                /*espaço inferior interno*/
+  padding-top: 80px;                 /*espaço superior interno*/
+  display: flex;                    /*usa layout flexível para os filhos*/
+  justify-content: center;         /*centraliza horizontalmente os elementos filhos*/
 }
 
-.chamada-texto {
-  margin-right: 5%; /espaço à direita para separar do vídeo/
+.chamada-texto { 
+  margin-right: 5%;         /*espaço à direita para separar do vídeo*/
 }
 
 h1 {
-  font-size: 40px; /tamanho da fonte do título principal/
+  font-size: 40px;           /*tamanho da fonte do título principal*/
 }
 
-p {
-  font-size: 20px; /tamanho da fonte dos parágrafos/
+p { 
+  font-size: 20px;         /*tamanho da fonte dos parágrafos*/
 }
 
 .categoria-videos{
