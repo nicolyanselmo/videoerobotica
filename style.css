@@ -33,28 +33,29 @@ p {
   font-size: 20px; /tamanho da fonte dos parágrafos/
 }
 
-.categoria-videos {
-  display: flex; /layout flexível em linha/
-  overflow-x: auto; /permite rolagem horizontal se necessário/
-  gap: 10px; /espaço entre os vídeos/
+.categoria-videos{
+  display: flex;          /* Coloca os vídeos lado a lado */
+  overflow: auto;         /* Adiciona scroll se precisar */
+  gap: 10px;              /* Espaço entre os vídeos */
 }
 
-.categoria {
-  padding-left: 20px; /espaço interno à esquerda/
-  padding-right: 20px; /espaço interno à direita/
-  margin-top: 50px; /espaço superior da seção/
+
+.categoria{
+  padding-left: 20px;     /* Espaço na esquerda */
+  padding-right: 20px;    /* Espaço na direita */
+  margin-top: 50px;       /* Espaço em cima */
 }
 
-.categoria-videos img {
-  opacity: 0.5; /imagens levemente transparentes/
-  height: 200px; /altura fixa das miniaturas/
+.categoria-videos img{
+  opacity: 0.5;           /* Deixa imagem meio transparente */
+  height: 200px;          /* Altura fixa das imagens */
 }
 
-.categoria-videos img:hover {
-  opacity: 1.0; /ao passar o mouse, imagem fica visível totalmente/
-  border: 3px solid green; /adiciona borda verde ao passar o mouse/
+.categorias-videos img:houver{
+  opacity: 1.0;           /* Imagem fica totalmente visível */
+  border: 3px solid green; /* Borda verde aparece */
 }
 
-.categoria h2 {
-  color: rgb(42,122,228); /cor azul para o título da seção/
+.categoria h2{
+  color:  rgb(42, 122, 228); /* Cor azul para o título */
 }
